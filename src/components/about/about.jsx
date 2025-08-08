@@ -14,8 +14,9 @@ const About = () =>{
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am a Front-End Devloper with strong foundation in HTML, CSS, JavaScript, and React.js. Complecteed project utilized Git and Bootstrap to improve user experience and design </p>
-                        <p>Eager to leverage technical skills and innvovative mindset to contribute effectively in a dynamic development team</p>
+                        <p>I am a Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and React.js.
+I have completed projects that utilized Git and Bootstrap to enhance user experience and design quality.</p>
+                        <p>Eager to leverage my technical skills and innovative mindset to contribute effectively to a dynamic development team.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill">
