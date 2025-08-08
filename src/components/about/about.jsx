@@ -1,0 +1,50 @@
+import React from "react";
+import './about.css';
+import beje from '../../assets/bejeesh.jpg'
+
+const About = () =>{
+    return(
+        <div id="about" className="about">
+            <div className="about-title">
+                <h1>About me</h1>
+            </div>
+            <div className="about-section">
+                <div className="about-left">
+                    <img src={beje} alt="" />
+                </div>
+                <div className="about-right">
+                    <div className="about-para">
+                        <p>I am a Front-End Devloper with strong foundation in HTML, CSS, JavaScript, and React.js. Complecteed project utilized Git and Bootstrap to improve user experience and design </p>
+                        <p>Eager to leverage technical skills and innvovative mindset to contribute effectively in a dynamic development team</p>
+                    </div>
+                    <div className="about-skills">
+                        <div className="about-skill">
+                            <p>HTML</p><hr style={{width:"60%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>CSS</p><hr style={{width:"50%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>React.js</p><hr style={{width:"40%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>JavaScript</p><hr style={{width:"40%"}} />
+                        </div>
+                    </div>
+                </div>
+                 </div>
+                <div className="about-achievements">
+                    <div className="about-achievement">
+                        <h1>1 Month</h1>
+                        <p>Front-End Internship</p>
+                    </div>
+                    <div className="about-achievement">
+                        <h1>3</h1>
+                        <p>Project omplected</p>
+                    </div>
+                </div>
+           
+        </div>
+    )
+}
+export default About
