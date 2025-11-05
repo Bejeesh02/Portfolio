@@ -41,7 +41,7 @@ I have completed projects that utilized Git and Bootstrap to enhance user experi
                     </div>
                     <div className="about-achievement">
                         <h1>3</h1>
-                        <p>Project omplected</p>
+                        <p>Project Complected</p>
                     </div>
                 </div>
            
