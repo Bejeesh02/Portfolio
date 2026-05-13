@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bejeesh02.github.io/Portfolio",
+  "homepage": "https://bejeesh.github.io/portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +10,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predplay": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
