@@ -1,18 +1,15 @@
 {
-  "homepage": "https://bejeesh.github.io/portfolio",
+  "homepage": "https://bejeesh02.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "div": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "react": "^19.1.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
